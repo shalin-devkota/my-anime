@@ -1,6 +1,6 @@
-# Flask-Anime-Hub-App
+# My anime
 
-This is a Flask web app that lets you watch and keep track of your favorite anime. The app uses a scraper called gogoscraper to fetch anime information and streaming links, and SQLite for data storage.
+This is a Flask web app that lets you watch and keep track of your favorite anime.
 
 ## Features
 
