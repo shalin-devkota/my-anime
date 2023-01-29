@@ -46,11 +46,10 @@ This is a Flask web app that lets you watch and keep track of your favorite anim
 5. Start the app
 
 ```
- export FLASK_APP=app.py
- flask run
+ python app.py
 ```
 
-**The app should now be running on **[http://localhost:5000](http://localhost:5000/).
+**The app should now be running on** **[http://localhost:5000](http://localhost:5000/).**
 
 ## Contributing
 
