@@ -62,9 +62,7 @@ This is an open-source project, and contributions are welcome. If you'd like to 
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
-## License
 
-**This project is licensed under the MIT License - see the **[LICENSE](https://chat.openai.com/LICENSE) file for details.
 
 ## Contributors
 
