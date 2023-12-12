@@ -65,5 +65,5 @@ This is an open-source project, and contributions are welcome. If you'd like to 
 
 ## Contributors
 
-* [Shalin Devkota](https://www.github.com/GenVenom) - Backend and Idea For this Project
+* [Shalin Devkota](https://www.github.com/shalin-devkota) - Backend and Idea For this Project
 * [Sulav Baral](https://github.com/tyzrex) - Frontend and Design
