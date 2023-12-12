@@ -9,7 +9,7 @@ from anime import Anime
 def get_stream_url(anime_name, ep_id):
     anime_name = sanitize_name(anime_name)
     print(anime_name)
-    url = f"https://www1.gogoanime.bid/{anime_name}-episode-{ep_id}"
+    url = f"https://www.anitaku.to/{anime_name}-episode-{ep_id}"
     
     data_html = requests.get(url)
     data_soup = soup(data_html.text,"html.parser")
@@ -25,7 +25,7 @@ def get_stream_url(anime_name, ep_id):
 def get_search_results(anime_name):
     results = []
     anime_name = anime_name.replace(" ", "%20")
-    url = f"https://www1.gogoanime.bid/search.html?keyword={anime_name}"
+    url = f"https://www.anitaku.to/search.html?keyword={anime_name}"
     
     data_html = requests.get(url)
     data_soup = soup(data_html.text,"html.parser")
@@ -43,7 +43,7 @@ def get_search_results(anime_name):
 
 def get_home_page():
     results = []
-    url = 'https://www1.gogoanime.bid/'
+    url = 'https://www.anitaku.to/home.html'
     data_html  = requests.get(url)
     data_soup = soup(data_html.text,"html.parser")
     animelist = data_soup.find('ul',{'class':'items'}).find_all('li')
@@ -60,7 +60,7 @@ def get_anime_info(name):
     
     anime_data = {}
     name= name.strip()
-    url = f"https://www1.gogoanime.bid/category/{name}"
+    url = f"https://www.anitaku.to/category/{name}"
     print(url)
     data_html = requests.get(url)
     data_soup = soup(data_html.text,"html.parser")
